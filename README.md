@@ -92,8 +92,8 @@ This schedule will be used to keep track of your progress throughout the week an
 | Styling Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Styling Home Page | H | 3hrs| 3.5hrs | 3.5hrs |
 | Using Flex-box for header | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding star rating system | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding icon png images | H | 3hrs| 3.5hrs | 3.5hrs |
+| Adding star rating system | L | 3hrs| 3.5hrs | 3.5hrs |
+| Adding icon png images | L | 3hrs| 3.5hrs | 3.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## SWOT Analysis
