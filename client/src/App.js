@@ -7,21 +7,25 @@ import { Route, Link } from 'react-router-dom'
 import Detail from './components/Detail'
 
 
+
 function App() {
 
   const [products, setProducts] = useState([])
   const [toggleFetch, setToggleFetch] = useState(false)
+ 
+  
 
-  useEffect(() => {
+useEffect(() => {
 
-    const getCategories = async () => {
-      const resp = await axios.get(baseURL, config)
-      console.log(resp.data.records)
-      setProducts(resp.data.records)
-    }
-    getCategories()
-    // console.log(products[0])
-  }, [toggleFetch])
+  const getCategories = async () => {
+    const resp = await axios.get(baseURL, config)
+    console.log(resp.data.records)
+    setProducts(resp.data.records)
+  }
+  getCategories()
+  // console.log(products[0])
+}, [toggleFetch]);
+
   return (
     
     <div className="App">
@@ -33,7 +37,7 @@ function App() {
             <div className="header-div">
             <div className="home-div">
               <button className="home-button">
-              <img src='https://i.imgur.com/FJkLcZF.png'/>
+              <img src='https://i.imgur.com/FJkLcZF.png' className="home-png"/>
                 {/* HOME */}
                   </button>
                 </div>
@@ -122,6 +126,10 @@ function App() {
       <Route path="/baby-bottles">
         <Detail products={products.filter(product => product.fields.category === "Baby Bottles")} />
       </Route>
+
+      <footer>
+        <h5>coded by esther 💛 </h5>
+      </footer>
 
       </div>
       

@@ -27,9 +27,16 @@ header {
   /* background-image: url('https://i.imgur.com/FJkLcZF.png'); */
 }
 
-img {
+.home-png {
   width: 25px;
   filter: invert()
+}
+
+footer {
+  text-align: center;
+  background-color: #cee8e5;
+  margin-bottom: -22px;
+  color: grey;
 }
 
 .link-container {
@@ -40,7 +47,7 @@ img {
 }
 
 .category {
-  border: solid #cae9f5;
+  border: solid #cee8e5;
   /* height: 50px; */
   margin-top: 20px;
   width: 90%;
@@ -48,7 +55,8 @@ img {
   border-radius: 35px;
   padding-left: 8px;
   box-shadow: 0px 3px 0px lightgray;
-  background-color: #cae9f5;
+  background-color: #cee8e5;
   color: white;
+
   
 }
