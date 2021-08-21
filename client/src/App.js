@@ -54,49 +54,49 @@ useEffect(() => {
           
           <Link className="categories-link" to="/high-chairs">
             <div className="category">
-              <h5>High Chairs</h5>
+              <h5 className="cat-ti">High Chairs</h5>
               <img src='https://i.imgur.com/NDuq1yk.png' className="chair-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/car-seats">
             <div className="category">
-              <h5>Convertible Car Seats</h5>
+              <h5 className="cat-ti">Car Seats</h5>
               <img src='https://i.imgur.com/6P5Ln1d.png' className="seat-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/breast-pumps">
             <div className="category">
-              <h5>Breast Pumps</h5>
+              <h5 className="cat-ti">Breast Pumps</h5>
               <img src='https://i.imgur.com/N73baun.png' className="pump-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/diapers">
             <div className="category">
-              <h5>Diapers</h5>
+              <h5 className="cat-ti">Diapers</h5>
               <img src='https://i.imgur.com/VPVuDUv.png' className="diaper-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/cribs">
             <div className="category">
-              <h5>Cribs</h5>
+              <h5 className="cat-ti">Cribs</h5>
               <img src='https://i.imgur.com/oU5p4d1.png' className="crib-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/diaper-pails">
             <div className="category">
-              <h5>Diaper Pails</h5>
+              <h5 className="cat-ti">Diaper Pails</h5>
               <img src='https://i.imgur.com/GtQxmpS.png' className="pail-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/baby-bottles">
             <div className="category">
-              <h5>Baby Bottles</h5>
+              <h5 className="cat-ti">Baby Bottles</h5>
               <img src='https://i.imgur.com/w6EIWrO.png' className="bottle-icon"/>
             </div>
           </Link>
@@ -111,7 +111,7 @@ useEffect(() => {
       </Route>
 
       <Route path="/car-seats">
-        <Detail products={products.filter(product => product.fields.category === "Convertible Car Seats")} />
+        <Detail products={products.filter(product => product.fields.category === "Car Seats")} />
       </Route>
 
       <Route path="/breast-pumps">

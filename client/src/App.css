@@ -1,5 +1,7 @@
 .App {
   background-color: #f7f2ea;
+  margin-left: 7%;
+  margin-right: 7%;
   /* margin: 0px 5px 0px 5px solid black; */
   
   
@@ -27,10 +29,10 @@ header {
 }
 
 .home-button {
-  border: solid #ffe3b3;
+  border: solid #f4a460;
   border-radius: 45px;
   
-  background-color: #ffe3b3;
+  background-color: #f4a460;
   color: white;
   box-shadow: 0px 3px 0px lightgray;
   
@@ -54,14 +56,14 @@ header {
   width: 40px;
   height: 35px;
   margin-top: 10px;
-  /* filter: invert(); */
+  filter: invert();
 }
 
 .pump-icon {
   width: 40px;
   height: 35px;
   margin-top: 10px;
-   /* filter: invert(); */
+   filter: invert(0.3);
 }
 
 .diaper-icon {
@@ -87,7 +89,7 @@ header {
   margin-top: 10px;
   /* background-color: #f5e5b2; */
   padding-right: 5px;
-  /* filter: invert(); */
+  filter: invert();
 }
 
 .bottle-icon {
@@ -107,8 +109,8 @@ footer {
 }
 
 .link-container {
-  margin-left: 35px;
-  margin-right: 120px;
+  margin-left: 37px;
+  margin-right: 125px;
   /* background-color: #ffd393 */
   /* border: solid lightslategray; */
   
@@ -125,7 +127,7 @@ footer {
   width: 100%;
   height: 50px;
   text-align: left;
-  border-radius: 25px;
+  border-radius: 45px;
   
   box-shadow: 0px 3px 0px lightgray;
   background-color: #ffe3b3;
