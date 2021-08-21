@@ -1,5 +1,5 @@
 .App {
-  /* background-color: #f1f7fc */
+  /* background-color: #e9e9e9; */
   /* margin: 0px 5px 0px 5px solid black; */
   
   
@@ -9,7 +9,7 @@
 header {
   /* border: solid; */
   text-align: center;
-  color: #9f9885;
+  color: #65352b;
 }
 
 .categories-link {
@@ -26,10 +26,10 @@ header {
 }
 
 .home-button {
-  border: solid #fdeecf;
+  border: solid #ffe3b3;
   border-radius: 45px;
-  margin-bottom: 15px;
-  background-color: #fdeecf;
+  
+  background-color: #ffe3b3;
   color: white;
   box-shadow: 0px 3px 0px lightgray;
   
@@ -43,63 +43,72 @@ header {
 
 .chair-icon {
   width: 40px;
-  height: 35px;
+  height: 30px;
   margin-top: 10px;
+  filter: invert();
+ 
 }
 
 .seat-icon {
   width: 40px;
   height: 35px;
   margin-top: 10px;
+  /* filter: invert(); */
 }
 
 .pump-icon {
   width: 40px;
   height: 35px;
   margin-top: 10px;
+   /* filter: invert(); */
 }
 
 .diaper-icon {
   width: 40px;
   height: 30px;
   margin-top: 10px;
-  background-color: #e8f1ec;
+  /* filter: invert(); */
+  /* background-color: #e8f1ec; */
 }
 
 .crib-icon {
   width: 36px;
   height: 30px;
   margin-top: 10px;
-  background-color: #e8f1ec;
+  /* background-color: #f5e5b2; */
   padding-right: 5px;
+  /* filter: invert(); */
 }
 
 .pail-icon {
   width: 25px;
   height: 30px;
   margin-top: 10px;
-  background-color: #e8f1ec;
+  /* background-color: #f5e5b2; */
   padding-right: 5px;
+  /* filter: invert(); */
 }
 
 .bottle-icon {
   width: 40px;
   height: 30px;
   margin-top: 10px;
-  background-color: #e8f1ec;
-  padding-right: 5px;
+  filter: invert();
+  /* background-color: #f5e5b2; */
+  /* padding-right: 5px; */
 }
 
 footer {
   text-align: center;
-  background-color: #fdeecf;
+  background-color: #ffe3b3;
   margin-bottom: -22px;
-  color:#9f9885;
+  color: #64352b;
 }
 
 .link-container {
-  margin-left: 40px;
-  margin-right: 20px;
+  margin-left: 35px;
+  margin-right: 120px;
+  /* background-color: #ffd393 */
   /* border: solid lightslategray; */
   
 }
@@ -108,19 +117,22 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: solid #e8f1ec;
+  /* align-content: center; */
+  border: solid #ffe3b3;
   
-  margin-top: 20px;
-  width: 90%;
+  margin-top: 15px;
+  width: 100%;
   height: 50px;
   text-align: left;
-  border-radius: 35px;
+  border-radius: 20px;
   
   box-shadow: 0px 3px 0px lightgray;
-  background-color: #e8f1ec;
-  color: #9f9885;
+  background-color: #ffe3b3;
+  color:#cf7a4a;
   padding-left: 10px;
   padding-right: 5px;
+  margin-left: 38px;
+  margin-right: 50px;
 
   
 }
