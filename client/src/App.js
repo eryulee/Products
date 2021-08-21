@@ -32,7 +32,7 @@ useEffect(() => {
       
    <header>
        <h3>Baby Products Ratings</h3>
-       <h5>(Birth-2 years)</h5>
+       {/* <h5>(Birth-2 years)</h5> */}
           <Link className="home-link" to="/">
             <div className="header-div">
             <div className="home-div">
@@ -54,43 +54,50 @@ useEffect(() => {
           
           <Link className="categories-link" to="/high-chairs">
             <div className="category">
-              <h3>High Chairs</h3>
+              <h4>High Chairs</h4>
+              <img src='https://i.imgur.com/GsfXVeV.png' className="chair-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/car-seats">
             <div className="category">
-              <h3>Convertible Car Seats</h3>
+              <h4>Convertible Car Seats</h4>
+              <img src='https://i.imgur.com/6P5Ln1d.png' className="seat-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/breast-pumps">
             <div className="category">
-              <h3>Breast Pumps</h3>
+              <h4>Breast Pumps</h4>
+              <img src='https://i.imgur.com/N73baun.png' className="pump-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/diapers">
             <div className="category">
-              <h3>Diapers</h3>
+              <h4>Diapers</h4>
+              <img src='https://i.imgur.com/VPVuDUv.png' className="diaper-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/cribs">
             <div className="category">
-              <h3>Cribs</h3>
+              <h4>Cribs</h4>
+              <img src='https://i.imgur.com/oU5p4d1.png' className="crib-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/diaper-pails">
             <div className="category">
-              <h3>Diaper Pails</h3>
+              <h4>Diaper Pails</h4>
+              <img src='https://i.imgur.com/GtQxmpS.png' className="pail-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/baby-bottles">
             <div className="category">
-              <h3>Baby Bottles</h3>
+              <h4>Baby Bottles</h4>
+              <img src='https://i.imgur.com/w6EIWrO.png' className="bottle-icon"/>
             </div>
           </Link>
           
@@ -128,7 +135,7 @@ useEffect(() => {
       </Route>
 
       <footer>
-        <h5>coded by esther 💛 </h5>
+        <h5>coded by esther 💛 <img src='' className='email-icon' /></h5>
       </footer>
 
       </div>
