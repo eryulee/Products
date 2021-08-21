@@ -1,0 +1,38 @@
+header {
+  /* border: solid; */
+  text-align: center;
+}
+
+.categories-link {
+  text-decoration: none;
+}
+
+.home-link {
+  text-decoration: none;
+}
+
+.home-button {
+  border-radius: 45px;
+  margin-bottom: 15px;
+}
+
+.link-container {
+  margin-left: 55px;
+  margin-right: 20px;
+  /* border: solid lightslategray; */
+  
+}
+
+.category {
+  border: solid #cae9f5;
+  /* height: 50px; */
+  margin-top: 20px;
+  width: 85%;
+  text-align: left;
+  border-radius: 35px;
+  padding-left: 8px;
+  box-shadow: 0px 3px 0px lightgray;
+  background-color: #cae9f5;
+  color: white;
+  
+}
