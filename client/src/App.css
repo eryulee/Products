@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Baloo+2');
+
+
 .App {
   background-color: #f7f2ea;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 3%;
+  margin-right: 3%;
+ 
   /* margin: 0px 5px 0px 5px solid black; */
   
   
 }
+
 
 
 header {
@@ -13,6 +20,8 @@ header {
   padding-top: 10px;
   text-align: center;
   color: #cb9663;
+  font-family: 'Baloo 2'
+  
 }
 
 .categories-link {
@@ -106,11 +115,12 @@ footer {
   background-color: #ffe3b3;
   /* margin-bottom: -22px; */
   color: #cb9663;
+  font-family: Baloo 2;
 }
 
 .link-container {
-  margin-left: 37px;
-  margin-right: 125px;
+  margin-left: 40px;
+  margin-right: 127px;
   /* background-color: #ffd393 */
   /* border: solid lightslategray; */
   
@@ -136,6 +146,7 @@ footer {
   padding-right: 5px;
   margin-left: 38px;
   margin-right: 50px;
+  font-family: Baloo 2;
 
   
 }

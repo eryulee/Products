@@ -1,5 +1,6 @@
 
 import './App.css';
+// import '.assets/css/fonts.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react'
 import { baseURL, config } from './services/index.js'
@@ -31,7 +32,8 @@ useEffect(() => {
     <div className="App">
       
    <header>
-       <h3>Baby Products Ratings</h3>
+        <h3 className="app-title">Baby Product Reviews</h3>
+       
        {/* <h5>(Birth-2 years)</h5> */}
           <Link className="home-link" to="/">
             <div className="header-div">
