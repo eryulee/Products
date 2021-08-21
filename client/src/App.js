@@ -27,19 +27,24 @@ function App() {
     <div className="App">
       
    <header>
-       <h2>Baby Products Ratings</h2>
-       <h3>(Birth-2 years)</h3>
+       <h3>Baby Products Ratings</h3>
+       <h5>(Birth-2 years)</h5>
           <Link className="home-link" to="/">
             <div className="header-div">
-                <div className="home-div">
-                  <button className="home-button">HOME</button>
+            <div className="home-div">
+              <button className="home-button">
+              <img src='https://i.imgur.com/FJkLcZF.png'/>
+                {/* HOME */}
+                  </button>
                 </div>
              </div>
           </Link>
     </header>
 
           
-
+    {/* links to each category will be displayed on home page. I want links to only 
+    be displayed on home page */}
+      
       <div className="link-container">
       <Route path="/" exact>
           
@@ -89,7 +94,7 @@ function App() {
       </Route>
       </div>
            
-
+      {/* In detail component, all products will be filtered by category. */}
       <Route path="/high-chairs">
         <Detail products={products.filter(product => product.fields.category === "High Chairs")} />
       </Route>
