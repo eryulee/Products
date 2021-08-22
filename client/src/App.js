@@ -105,74 +105,78 @@ getCategories()
       {/* in detail component, map out data and render data for each category */}
       {/* edit link will be inserted after each data set in detail component */}
   <Route path="/high-chairs">
-    <h5>High Chairs</h5>
+        <h5>category page: High Chairs</h5>
+        <h5>detail component will be rendered here</h5>
+      <Form products={products.filter(product => product.fields.category === "High Chairs")}
+          setToggleFetch={setToggleFetch}/>
       <Detail 
           products={products.filter(product => product.fields.category === "High Chairs")}
-          setToggleFetch={setToggleFetch}
-      />
-      <Form products={products.filter(product => product.fields.category === "High Chairs")}
-        setToggleFetch={setToggleFetch}
-      />
+          setToggleFetch={setToggleFetch}/>
   </Route>
 
   <Route path="/car-seats">
-    <h5>Car Seats</h5>
+        <h5>category page: Car Seats</h5>
+        <h5>form will go here</h5>
+        <h5>detail component will be rendered here</h5>
+      <Form products={products.filter(product => product.fields.category === "Car Seats")}
+        setToggleFetch={setToggleFetch}/>
       <Detail
           products={products.filter(product => product.fields.category === "Car Seats")}
-          setToggleFetch={setToggleFetch}
-      />
-      <Form products={products.filter(product => product.fields.category === "Car Seats")}
-          setToggleFetch={setToggleFetch}
-      />
+          setToggleFetch={setToggleFetch}/>
   </Route>
 
   <Route path="/breast-pumps">
-    <h5>Breast Pumps</h5>
+        <h5>category page: Breast Pumps</h5>
+        <h5>form will go here</h5>
+        <h5>detail component will be rendered here</h5>
+      <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
+        setToggleFetch={setToggleFetch}/>
       <Detail
           products={products.filter(product => product.fields.category === "Breast Pumps")}
-          setToggleFetch={setToggleFetch}
-      />
-      <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
           setToggleFetch={setToggleFetch}/>
   </Route>
 
   <Route path="/diapers">
-    <h5>Diapers</h5>
+        <h5>category page: Diapers</h5>
+        <h5>form will go here</h5>
+        <h5>detail component will be rendered here</h5>
+      <Form products={products.filter(product => product.fields.category === "Diapers")}
+         setToggleFetch={setToggleFetch}/>
       <Detail
           products={products.filter(product => product.fields.category === "Diapers")}
-          setToggleFetch={setToggleFetch}
-      />
-      <Form products={products.filter(product => product.fields.category === "Diapers")}
-           setToggleFetch={setToggleFetch}/>
+          setToggleFetch={setToggleFetch}/>
   </Route>
 
   <Route path="/cribs">
-    <h5>Cribs</h5>
+        <h5>category page: Cribs</h5>
+        <h5>form will go here</h5>
+        <h5>detail component will be rendered here</h5>
+      <Form products={products.filter(product => product.fields.category === "Cribs")}
+        setToggleFetch={setToggleFetch}/>
       <Detail
           products={products.filter(product => product.fields.category === "Cribs")}
-          setToggleFetch={setToggleFetch}
-      />
-      <Form products={products.filter(product => product.fields.category === "Cribs")}
           setToggleFetch={setToggleFetch}/>
   </Route>
 
   <Route path="/diaper-pails">
-    <h5>Diaper Pails</h5>
+        <h5>category page: Diaper Pails</h5>
+        <h5>form will go here</h5>
+        <h5>detail component will be rendered here</h5>
+      <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
+        setToggleFetch={setToggleFetch}/>
       <Detail
           products={products.filter(product => product.fields.category === "Diaper Pails")}
-          setToggleFetch={setToggleFetch}
-      />
-      <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
           setToggleFetch={setToggleFetch}/>
   </Route>
 
   <Route path="/baby-bottles">
-    <h5>Baby Bottles</h5>
+        <h5>category page: Baby Bottles</h5>
+        <h5>form will go here</h5>
+        <h5>detail component will be rendered here</h5>
+      <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
+        setToggleFetch={setToggleFetch}/>
       <Detail
           products={products.filter(product => product.fields.category === "Baby Bottles")}
-          setToggleFetch={setToggleFetch}
-      />
-      <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
           setToggleFetch={setToggleFetch}/>
   </Route>
 
