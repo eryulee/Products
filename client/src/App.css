@@ -82,14 +82,14 @@ header {
   width: 40px;
   height: 35px;
   margin-top: 10px;
-   filter: invert(0.3);
+   filter: invert(0.4);
 }
 
 .diaper-icon {
   width: 40px;
   height: 30px;
   margin-top: 10px;
-  /* filter: invert(); */
+  filter: invert(0.9);
   /* background-color: #e8f1ec; */
 }
 
@@ -99,7 +99,7 @@ header {
   margin-top: 10px;
   /* background-color: #f5e5b2; */
   padding-right: 5px;
-  /* filter: invert(); */
+  filter: invert(0.6);
 }
 
 .pail-icon {
