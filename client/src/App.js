@@ -12,14 +12,13 @@ function App() {
   const [products, setProducts] = useState([])
   const [toggleFetch, setToggleFetch] = useState(false)
  
-  useEffect(() => {
-
+useEffect(() => {
   const getCategories = async () => {
     const resp = await axios.get(baseURL, config)
     console.log(resp.data.records)
     setProducts(resp.data.records)
   }
-  getCategories()
+getCategories()
   // console.log(products[0])
 }, [toggleFetch]);
 
@@ -28,20 +27,20 @@ function App() {
     <div className="App">
       
    <header>
-      <h3 className="app-title">Baby Product Reviews</h3>
-       
+    <h3 className="app-title">Baby Product Reviews</h3>
       <Link className="home-link" to="/">
          <div className="header-div">
             <div className="home-div">
               <button className="home-button">
                 <img src='https://i.imgur.com/FJkLcZF.png' className="home-png"/>
               </button>
-             </div>
+            </div>
          </div>
       </Link>
-   </header>
+  </header>
+       
 
-   {/* links to each category will be displayed on home page. I want links to only 
+   {/* links to each category page will be displayed on home page. I want links to only 
     be displayed on home page */}
       
   <div className="link-container">
@@ -99,7 +98,12 @@ function App() {
      </Route>
   </div>
           
-     {/* In detail component, all products will be filtered by category. */}
+      {/* detail component and form component both live within each category page */}
+      {/* pass products as a prop */}
+      {/* apply filter method to products to filter by category */}
+      {/* form component will have both post request and put request */}
+      {/* in detail component, map out data and render data for each category */}
+      {/* edit link will be inserted after each data set in detail component */}
   <Route path="/high-chairs">
     <h5>High Chairs</h5>
       <Detail 
