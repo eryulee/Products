@@ -4,7 +4,7 @@ import React from 'react'
 
 function Detail(props) {
   return (
-    <h3>This is where all my category data will be rendered</h3>
+    <div></div>
   )
 }
 
