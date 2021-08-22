@@ -137,7 +137,7 @@ useEffect(() => {
       </Route>
 
       <footer>
-        <h6>coded by esther 💛 <img src='' className='email-icon' /></h6>
+        <h6 className="footer-text">coded by esther 💛 <img src='' className='email-icon' /></h6>
       </footer>
 
       </div>

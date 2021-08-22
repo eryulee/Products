@@ -5,6 +5,7 @@
 
 .App {
   background-color: #f7f2ea;
+  /* background-color: #fff7f2; */
   margin-left: 3%;
   margin-right: 3%;
  
@@ -20,7 +21,9 @@ header {
   padding-top: 10px;
   text-align: center;
   color: #cb9663;
-  font-family: 'Baloo 2'
+  font-family: 'Baloo 2';
+  background-color: #ffe3b3;
+  border-radius: 0 0  60px 60px;
   
 }
 
@@ -44,6 +47,7 @@ header {
   background-color: #f4a460;
   color: white;
   box-shadow: 0px 3px 0px lightgray;
+  margin-bottom: 15px;
   
   /* background-image: url('https://i.imgur.com/FJkLcZF.png'); */
 }
@@ -116,6 +120,9 @@ footer {
   /* margin-bottom: -22px; */
   color: #cb9663;
   font-family: Baloo 2;
+  height: 35px;
+  border-radius: 35px 35px 0 0;
+  padding-top: 0px;
 }
 
 .link-container {
@@ -149,5 +156,10 @@ footer {
   font-family: Baloo 2;
 
   
+}
+
+
+.footer-text {
+  padding-top: 7px;
 }
 
