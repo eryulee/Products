@@ -1,6 +1,5 @@
 
 import './App.css';
-// import '.assets/css/fonts.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react'
 import { baseURL, config } from './services/index.js'
@@ -8,16 +7,12 @@ import { Route, Link } from 'react-router-dom'
 import Detail from './components/Detail'
 import Form from './components/Form'
 
-
-
 function App() {
 
   const [products, setProducts] = useState([])
   const [toggleFetch, setToggleFetch] = useState(false)
  
-  
-
-useEffect(() => {
+  useEffect(() => {
 
   const getCategories = async () => {
     const resp = await axios.get(baseURL, config)
@@ -33,27 +28,24 @@ useEffect(() => {
     <div className="App">
       
    <header>
-        <h3 className="app-title">Baby Product Reviews</h3>
+      <h3 className="app-title">Baby Product Reviews</h3>
        
-       {/* <h5>(Birth-2 years)</h5> */}
-          <Link className="home-link" to="/">
-            <div className="header-div">
+      <Link className="home-link" to="/">
+         <div className="header-div">
             <div className="home-div">
               <button className="home-button">
-              <img src='https://i.imgur.com/FJkLcZF.png' className="home-png"/>
-                {/* HOME */}
-                  </button>
-                </div>
+                <img src='https://i.imgur.com/FJkLcZF.png' className="home-png"/>
+              </button>
              </div>
-          </Link>
-    </header>
+         </div>
+      </Link>
+   </header>
 
-          
-    {/* links to each category will be displayed on home page. I want links to only 
+   {/* links to each category will be displayed on home page. I want links to only 
     be displayed on home page */}
       
-      <div className="link-container">
-      <Route path="/" exact>
+  <div className="link-container">
+    <Route path="/" exact>
           
           <Link className="categories-link" to="/high-chairs">
             <div className="category">
@@ -103,88 +95,88 @@ useEffect(() => {
               <img src='https://i.imgur.com/w6EIWrO.png' className="bottle-icon"/>
             </div>
           </Link>
+    
+     </Route>
+  </div>
           
-
-      </Route>
-      </div>
-           
-      {/* In detail component, all products will be filtered by category. */}
-      <Route path="/high-chairs">
-        <h5>High Chairs</h5>
-        <Detail 
+     {/* In detail component, all products will be filtered by category. */}
+  <Route path="/high-chairs">
+    <h5>High Chairs</h5>
+      <Detail 
           products={products.filter(product => product.fields.category === "High Chairs")}
           setToggleFetch={setToggleFetch}
-        />
-        <Form products={products.filter(product => product.fields.category === "High Chairs")}
+      />
+      <Form products={products.filter(product => product.fields.category === "High Chairs")}
         setToggleFetch={setToggleFetch}
-        />
-      </Route>
+      />
+  </Route>
 
-      <Route path="/car-seats">
-        <h5>Car Seats</h5>
-        <Detail
+  <Route path="/car-seats">
+    <h5>Car Seats</h5>
+      <Detail
           products={products.filter(product => product.fields.category === "Car Seats")}
           setToggleFetch={setToggleFetch}
-        />
-        <Form products={products.filter(product => product.fields.category === "Car Seats")}
-        setToggleFetch={setToggleFetch}
-        />
-      </Route>
+      />
+      <Form products={products.filter(product => product.fields.category === "Car Seats")}
+          setToggleFetch={setToggleFetch}
+      />
+  </Route>
 
-      <Route path="/breast-pumps">
-        <h5>Breast Pumps</h5>
-        <Detail
+  <Route path="/breast-pumps">
+    <h5>Breast Pumps</h5>
+      <Detail
           products={products.filter(product => product.fields.category === "Breast Pumps")}
+          setToggleFetch={setToggleFetch}
+      />
+      <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
           setToggleFetch={setToggleFetch}/>
-        <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
-        setToggleFetch={setToggleFetch}/>
-      </Route>
+  </Route>
 
-      <Route path="/diapers">
-        <h5>Diapers</h5>
-        <Detail
-        products={products.filter(product => product.fields.category === "Diapers")}
-        setToggleFetch={setToggleFetch}
-        />
-        <Form products={products.filter(product => product.fields.category === "Diapers")}
-        setToggleFetch={setToggleFetch}/>
-      </Route>
+  <Route path="/diapers">
+    <h5>Diapers</h5>
+      <Detail
+          products={products.filter(product => product.fields.category === "Diapers")}
+          setToggleFetch={setToggleFetch}
+      />
+      <Form products={products.filter(product => product.fields.category === "Diapers")}
+           setToggleFetch={setToggleFetch}/>
+  </Route>
 
-      <Route path="/cribs">
-        <h5>Cribs</h5>
-        <Detail
-        products={products.filter(product => product.fields.category === "Cribs")}
-        setToggleFetch={setToggleFetch}
-        />
-        <Form products={products.filter(product => product.fields.category === "Cribs")}
-        setToggleFetch={setToggleFetch}/>
-      </Route>
+  <Route path="/cribs">
+    <h5>Cribs</h5>
+      <Detail
+          products={products.filter(product => product.fields.category === "Cribs")}
+          setToggleFetch={setToggleFetch}
+      />
+      <Form products={products.filter(product => product.fields.category === "Cribs")}
+          setToggleFetch={setToggleFetch}/>
+  </Route>
 
-      <Route path="/diaper-pails">
-        <h5>Diaper Pails</h5>
-        <Detail
+  <Route path="/diaper-pails">
+    <h5>Diaper Pails</h5>
+      <Detail
           products={products.filter(product => product.fields.category === "Diaper Pails")}
           setToggleFetch={setToggleFetch}
-        />
-        <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
-        setToggleFetch={setToggleFetch}/>
-      </Route>
+      />
+      <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
+          setToggleFetch={setToggleFetch}/>
+  </Route>
 
-      <Route path="/baby-bottles">
-        <h5>Baby Bottles</h5>
-        <Detail
+  <Route path="/baby-bottles">
+    <h5>Baby Bottles</h5>
+      <Detail
           products={products.filter(product => product.fields.category === "Baby Bottles")}
           setToggleFetch={setToggleFetch}
-        />
-        <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
-        setToggleFetch={setToggleFetch}/>
-      </Route>
+      />
+      <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
+          setToggleFetch={setToggleFetch}/>
+  </Route>
 
-      <footer>
-        <h6 className="footer-text">coded by esther 💛</h6>
-      </footer>
+   <footer>
+     <h6 className="footer-text">coded by esther 💛</h6>
+   </footer>
 
-      </div>
+  </div>
       
 
   );
