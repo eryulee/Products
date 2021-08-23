@@ -104,8 +104,11 @@ getCategories()
       {/* form component will have both post request and put request */}
       {/* in detail component, map out data and render data for each category */}
       {/* edit link will be inserted after each data set in detail component */}
-  <Route path="/high-chairs">
-        <h5>High Chairs</h5>
+      <Route path="/high-chairs">
+        <div className='titles'>
+        <button className='cat-buttons'>High Chairs</button>
+        </div>
+
        
         <Form products={products.filter(product => product.fields.category === "High Chairs")}
           category={'High Chairs'}
@@ -115,8 +118,10 @@ getCategories()
           setToggleFetch={setToggleFetch}/>
   </Route>
 
-  <Route path="/car-seats">
-        <h5>Car Seats</h5>
+      <Route path="/car-seats">
+      <div className='titles'>
+      <button className='cat-buttons'>Car Seats</button>
+        </div>
         
         <Form products={products.filter(product => product.fields.category === "Car Seats")}
           category={'Car Seats'}
@@ -126,8 +131,10 @@ getCategories()
           setToggleFetch={setToggleFetch}/>
   </Route>
 
-  <Route path="/breast-pumps">
-        <h5>Breast Pumps</h5>
+      <Route path="/breast-pumps">
+      <div className='titles'>
+        <button className='cat-buttons'>Breast Pumps</button>
+        </div>
         
       <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
         category={'Breast Pumps'}
@@ -137,8 +144,10 @@ getCategories()
           setToggleFetch={setToggleFetch}/>
   </Route>
 
-  <Route path="/diapers">
-        <h5>Diapers</h5>
+      <Route path="/diapers">
+      <div className='titles'>
+      <button className='cat-buttons'>Diapers</button>
+        </div>
         
         <Form products={products.filter(product => product.fields.category === "Diapers")}
           category={'Diapers'}
@@ -148,8 +157,10 @@ getCategories()
           setToggleFetch={setToggleFetch}/>
   </Route>
 
-  <Route path="/cribs">
-        <h5>Cribs</h5>
+      <Route path="/cribs">
+      <div className='titles'>
+      <button className='cat-buttons'>Cribs</button>
+        </div>
        
         <Form products={products.filter(product => product.fields.category === "Cribs")}
           category={'Cribs'}
@@ -159,8 +170,10 @@ getCategories()
           setToggleFetch={setToggleFetch}/>
   </Route>
 
-  <Route path="/diaper-pails">
-        <h5>Diaper Pails</h5>
+      <Route path="/diaper-pails">
+      <div className='titles'>
+      <button className='cat-buttons'>Diaper Pails</button>
+        </div>
        
         <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
           category={'Diaper Pails'}
@@ -170,8 +183,10 @@ getCategories()
           setToggleFetch={setToggleFetch}/>
   </Route>
 
-  <Route path="/baby-bottles">
-        <h5>Baby Bottles</h5>
+      <Route path="/baby-bottles">
+      <div className='titles'>
+      <button className='cat-buttons'>Baby Bottles</button>
+        </div>
         
         <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
           category={'Baby Bottles'}
