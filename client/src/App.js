@@ -106,10 +106,10 @@ getCategories()
       {/* edit link will be inserted after each data set in detail component */}
       <Route path="/high-chairs">
         <div className='titles'>
-        <button className='cat-buttons'>High Chairs</button>
+          <button className='cat-buttons'>High Chairs</button>
+          <br />
+          <img className= 'img-chair' src='https://i.imgur.com/8LKWmqi.png' alt='img-chair'/>
         </div>
-
-       
         <Form products={products.filter(product => product.fields.category === "High Chairs")}
           category={'High Chairs'}
           setToggleFetch={setToggleFetch}/>
@@ -117,10 +117,15 @@ getCategories()
           products={products.filter(product => product.fields.category === "High Chairs")}
           setToggleFetch={setToggleFetch}/>
   </Route>
+         
+
+       
 
       <Route path="/car-seats">
       <div className='titles'>
-      <button className='cat-buttons'>Car Seats</button>
+          <button className='cat-buttons'>Car Seats</button>
+          <br />
+          <img className= 'img-car' src='https://i.imgur.com/Tpw4tbP.png' alt='img-car'/>
         </div>
         
         <Form products={products.filter(product => product.fields.category === "Car Seats")}
@@ -133,7 +138,9 @@ getCategories()
 
       <Route path="/breast-pumps">
       <div className='titles'>
-        <button className='cat-buttons'>Breast Pumps</button>
+          <button className='cat-buttons'>Breast Pumps</button>
+          <br />
+          <img className= 'img-pump' src='https://i.imgur.com/5MUyrQL.png' alt='img-pump'/>
         </div>
         
       <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
@@ -146,7 +153,9 @@ getCategories()
 
       <Route path="/diapers">
       <div className='titles'>
-      <button className='cat-buttons'>Diapers</button>
+          <button className='cat-buttons'>Diapers</button>
+          <br />
+          <img className= 'img-diaper' src='https://i.imgur.com/Yj9CpVC.png' alt='img-diaper'/>
         </div>
         
         <Form products={products.filter(product => product.fields.category === "Diapers")}
@@ -159,7 +168,9 @@ getCategories()
 
       <Route path="/cribs">
       <div className='titles'>
-      <button className='cat-buttons'>Cribs</button>
+          <button className='cat-buttons'>Cribs</button>
+          <br />
+          <img className= 'img-crib' src='https://i.imgur.com/JH8yGqR.png' alt='img-crib'/>
         </div>
        
         <Form products={products.filter(product => product.fields.category === "Cribs")}
@@ -172,7 +183,9 @@ getCategories()
 
       <Route path="/diaper-pails">
       <div className='titles'>
-      <button className='cat-buttons'>Diaper Pails</button>
+          <button className='cat-buttons'>Diaper Pails</button>
+          <br />
+          <img className= 'img-pail' src='https://i.imgur.com/h60ubQc.png?1' alt='img-pail'/>
         </div>
        
         <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
@@ -185,7 +198,9 @@ getCategories()
 
       <Route path="/baby-bottles">
       <div className='titles'>
-      <button className='cat-buttons'>Baby Bottles</button>
+          <button className='cat-buttons'>Baby Bottles</button>
+          <br />
+          <img className= 'img-bottle' src='https://i.imgur.com/k3GnPHG.png?1' alt='img-bottle'/>
         </div>
         
         <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
