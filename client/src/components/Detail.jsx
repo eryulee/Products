@@ -1,10 +1,11 @@
 
 import React from 'react';
 import axios from 'axios';
+import Rating from './Rating'
 
 // import { useState, useEffect } from 'react';
 // import { useParams } from 'react-router-dom';
-// import { baseURL, config } from '../services';
+import { baseURL, config } from '../services';
 
 
 function Detail(props) {
@@ -29,11 +30,11 @@ function Detail(props) {
   //   }
   // }, [params.id, props.products])
 
-  // const handleDelete = async () => {
-  //   await axios.delete(`{baseURL}/${product.id}`, { fields: productToEdit }, config)
-  //   props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
-  // }
-  
+  // const {brand, name, rating, review} = props.product.fields
+  const handleDelete = async () => {
+    await axios.delete(`{baseURL}/${props.product.id}`, config)
+    props.setToggleFetch((prevToggleFetch) => !prevToggleFetch)
+  }
  
   
   return (
@@ -45,12 +46,12 @@ function Detail(props) {
             <h5> <img src='https://i.imgur.com/3lZVdf9.png' className='brand-img' alt='brand-img' /> <br/> {product.fields.brand} {product.fields.name}</h5>
           </div>
           <div className='rating-div'>
-            <h5>Rating: {product.fields.rating}</h5>
+            <Rating rating={product.fields.rating} />
           </div>
           <div className='review-div'>
             <h5> <img src='https://i.imgur.com/wsOmGXt.png' className='review-img' alt='review-img' /> <br/> Review: <br /> {product.fields.review}</h5>
           </div>
-          {/* <button onClick={handleDelete}>Delete</button> */}
+          <button onClick={handleDelete}>Delete</button>
         </div>
 
       ))}
