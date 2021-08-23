@@ -1,13 +1,40 @@
 
 import React from 'react';
+import axios from 'axios';
 
+// import { useState, useEffect } from 'react';
+// import { useParams } from 'react-router-dom';
+// import { baseURL, config } from '../services';
 
 
 function Detail(props) {
 
+  // const [brand, setBrand] = useState('');
+  // const [name, setName] = useState('');
+  // const [rating, setRating] = useState('');
+  // const [review, setReview] = useState('');
+  // const [products, setProducts] = useState([])
+  // const [toggleFetch, setToggleFetch] = useState(false)
+  // const params = useParams();
+
+  // useEffect(() => {
+  //   if (params.id && props.products.length > 0) {
+  //     const productToEdit = props.products.find(product => params.id === product.id)
+  //     if (productToEdit) {
+  //       setBrand(productToEdit.fields.brand)
+  //       setName(productToEdit.fields.name)
+  //       setRating(productToEdit.fields.Rating)
+  //       setReview(productToEdit.fields.review)
+  //     }
+  //   }
+  // }, [params.id, props.products])
+
+  // const handleDelete = async () => {
+  //   await axios.delete(`{baseURL}/${product.id}`, { fields: productToEdit }, config)
+  //   props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
+  // }
   
-  
-  // console.log(props.products)
+ 
   
   return (
     <div className='user-container'>
@@ -21,8 +48,9 @@ function Detail(props) {
             <h5>Rating: {product.fields.rating}</h5>
           </div>
           <div className='review-div'>
-            <h5>Review: <br /> {product.fields.review}</h5>
-            </div>
+            <h5> <img src='https://i.imgur.com/wsOmGXt.png' className='review-img' alt='review-img' /> <br/> Review: <br /> {product.fields.review}</h5>
+          </div>
+          {/* <button onClick={handleDelete}>Delete</button> */}
         </div>
 
       ))}

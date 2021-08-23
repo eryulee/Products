@@ -5,12 +5,14 @@ import { useParams } from 'react-router-dom';
 
 
 
+
 function Form(props) {
 
   const [brand, setBrand] = useState('');
   const [name, setName] = useState('');
   const [rating, setRating] = useState('');
   const [review, setReview] = useState('');
+  // const [toggleFetch, setToggleFetch] = useState(false)
   const params = useParams();
 
   useEffect(() => {
@@ -35,10 +37,18 @@ function Form(props) {
       review
     }
     
-      await axios.post(baseURL, {fields:newProduct}, config)
-   
+    await axios.post(baseURL, { fields: newProduct }, config)
+    
     props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
+
   }
+  // const handleDelete = async () => {
+  //   await axios.delete(`${baseURL}/${product.id}`, config)
+  //   props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
+  // }
+
+
+  
 
   return (
 
