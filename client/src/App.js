@@ -174,7 +174,7 @@ getCategories()
       <div className='titles'>
           <button className='cat-buttons'>Cribs</button>
           <br />
-          <img className= 'img-crib' src='https://i.imgur.com/JH8yGqR.png' alt='img-crib'/>
+          <img className= 'img-crib' src='https://i.imgur.com/oU5p4d1.png' alt='img-crib'/>
         </div>
        
         <Form products={products.filter(product => product.fields.category === "Cribs")}
