@@ -45,14 +45,14 @@ function Form(props) {
     <div className='form-container'>
 
     <form className='actual-form' onSubmit={handleSubmit}>
-    <h5>Add a review</h5>
+    <h5 id='form-text'>Add a Review</h5>
       <label className='form-label' htmlFor='brand'></label>
-      <input id='brand' type='text' onChange={(e) => setBrand(e.target.value)} value={brand} placeholder='Enter Brand:' />
+      <input id='brand' type='text' onChange={(e) => setBrand(e.target.value)} value={brand} placeholder='Brand:' />
       <br />
       
 
       <label className='form-label' htmlFor='name:'></label>
-      <input id='name' type='text' onChange={(e) => setName(e.target.value)} value={name} placeholder='Enter Name:' />
+      <input id='name' type='text' onChange={(e) => setName(e.target.value)} value={name} placeholder='Name:' />
       <br />
 
       <label className='form-label' htmlFor='rating'></label>
@@ -61,7 +61,7 @@ function Form(props) {
 
       <label className='review-label' htmlFor='review'></label>
       <textarea id='review' type='text' onChange={(e) =>
-        setReview(e.target.value)} value={review} placeholder='Write Your Review:' />
+        setReview(e.target.value)} value={review} placeholder='Your Review:' />
       <br />
       <button id='form-button' type= 'submit'>Submit</button>
       
