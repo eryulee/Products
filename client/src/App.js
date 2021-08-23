@@ -32,7 +32,7 @@ getCategories()
          <div className="header-div">
             <div className="home-div">
               <button className="home-button">
-                <img src='https://i.imgur.com/FJkLcZF.png' className="home-png"/>
+                <img src='https://i.imgur.com/FJkLcZF.png' alt='imgur-1' className="home-png"/>
               </button>
             </div>
          </div>
@@ -49,49 +49,49 @@ getCategories()
           <Link className="categories-link" to="/high-chairs">
             <div className="category">
               <h5 className="cat-ti">High Chairs</h5>
-              <img src='https://i.imgur.com/NDuq1yk.png' className="chair-icon"/>
+              <img src='https://i.imgur.com/NDuq1yk.png' alt='imgur-1' className="chair-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/car-seats">
             <div className="category">
               <h5 className="cat-ti">Car Seats</h5>
-              <img src='https://i.imgur.com/6P5Ln1d.png' className="seat-icon"/>
+              <img src='https://i.imgur.com/6P5Ln1d.png' alt='imgur-2' className="seat-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/breast-pumps">
             <div className="category">
               <h5 className="cat-ti">Breast Pumps</h5>
-              <img src='https://i.imgur.com/N73baun.png' className="pump-icon"/>
+              <img src='https://i.imgur.com/N73baun.png' alt='imgur-3' className="pump-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/diapers">
             <div className="category">
               <h5 className="cat-ti">Diapers</h5>
-              <img src='https://i.imgur.com/VPVuDUv.png' className="diaper-icon"/>
+              <img src='https://i.imgur.com/VPVuDUv.png' alt='imgur-4' className="diaper-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/cribs">
             <div className="category">
               <h5 className="cat-ti">Cribs</h5>
-              <img src='https://i.imgur.com/oU5p4d1.png' className="crib-icon"/>
+              <img src='https://i.imgur.com/oU5p4d1.png' alt='imgur-5' className="crib-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/diaper-pails">
             <div className="category">
               <h5 className="cat-ti">Diaper Pails</h5>
-              <img src='https://i.imgur.com/GtQxmpS.png' className="pail-icon"/>
+              <img src='https://i.imgur.com/GtQxmpS.png' alt='imgur-6' className="pail-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/baby-bottles">
             <div className="category">
               <h5 className="cat-ti">Baby Bottles</h5>
-              <img src='https://i.imgur.com/w6EIWrO.png' className="bottle-icon"/>
+              <img src='https://i.imgur.com/w6EIWrO.png' alt='imgur-7' className="bottle-icon"/>
             </div>
           </Link>
     
@@ -105,8 +105,8 @@ getCategories()
       {/* in detail component, map out data and render data for each category */}
       {/* edit link will be inserted after each data set in detail component */}
   <Route path="/high-chairs">
-        <h5>category page: High Chairs</h5>
-        <h5>detail component will be rendered here</h5>
+        <h5>High Chairs</h5>
+       
         <Form products={products.filter(product => product.fields.category === "High Chairs")}
           category={'High Chairs'}
           setToggleFetch={setToggleFetch}/>
@@ -116,8 +116,8 @@ getCategories()
   </Route>
 
   <Route path="/car-seats">
-        <h5>category page: Car Seats</h5>
-        <h5>detail component will be rendered here</h5>
+        <h5>Car Seats</h5>
+        
         <Form products={products.filter(product => product.fields.category === "Car Seats")}
           category={'Car Seats'}
         setToggleFetch={setToggleFetch}/>
@@ -127,8 +127,8 @@ getCategories()
   </Route>
 
   <Route path="/breast-pumps">
-        <h5>category page: Breast Pumps</h5>
-        <h5>detail component will be rendered here</h5>
+        <h5>Breast Pumps</h5>
+        
       <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
         category={'Breast Pumps'}
           setToggleFetch={setToggleFetch} />
@@ -138,8 +138,8 @@ getCategories()
   </Route>
 
   <Route path="/diapers">
-        <h5>category page: Diapers</h5>
-        <h5>detail component will be rendered here</h5>
+        <h5>Diapers</h5>
+        
         <Form products={products.filter(product => product.fields.category === "Diapers")}
           category={'Diapers'}
          setToggleFetch={setToggleFetch}/>
@@ -149,8 +149,8 @@ getCategories()
   </Route>
 
   <Route path="/cribs">
-        <h5>category page: Cribs</h5>
-        <h5>detail component will be rendered here</h5>
+        <h5>Cribs</h5>
+       
         <Form products={products.filter(product => product.fields.category === "Cribs")}
           category={'Cribs'}
         setToggleFetch={setToggleFetch}/>
@@ -160,8 +160,8 @@ getCategories()
   </Route>
 
   <Route path="/diaper-pails">
-        <h5>category page: Diaper Pails</h5>
-        <h5>detail component will be rendered here</h5>
+        <h5>Diaper Pails</h5>
+       
         <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
           category={'Diaper Pails'}
         setToggleFetch={setToggleFetch}/>
@@ -171,8 +171,8 @@ getCategories()
   </Route>
 
   <Route path="/baby-bottles">
-        <h5>category page: Baby Bottles</h5>
-        <h5>detail component will be rendered here</h5>
+        <h5>Baby Bottles</h5>
+        
         <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
           category={'Baby Bottles'}
         setToggleFetch={setToggleFetch}/>
@@ -181,15 +181,11 @@ getCategories()
           setToggleFetch={setToggleFetch}/>
       </Route>
       
-  {/* <Route path="/edit/:id">
-        <Form products={products.filter(product => product.fields.category === "")}
-          category={''}
-        setToggleFetch={setToggleFetch}/>
-  </Route> */}
 
-  <Route path="/products/:id">
+
+  {/* <Route path="/products/:id">
         
-  </Route>
+  </Route> */}
 
 
    <footer>

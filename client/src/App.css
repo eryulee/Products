@@ -151,10 +151,16 @@ header {
   margin-left: 38px;
   margin-right: 50px;
   font-family: Baloo 2;
-
-  
 }
 
+.form-container {
+  border: solid #ffe3b3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 45px;
+
+}
 
 
 .footer-text {
