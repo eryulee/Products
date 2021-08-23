@@ -52,7 +52,7 @@ function Detail(props) {
           <div className='review-div'>
             <h5> <img src='https://i.imgur.com/wsOmGXt.png' className='review-img' alt='review-img' /> <br/> Review: <br /> {product.fields.review}</h5>
           </div>
-          <button onClick={() => { handleDelete(product.id) }}>Delete</button>
+          <button className='delete-button' onClick={() => { handleDelete(product.id) }}>Delete</button>
         </div>
 
       ))}
