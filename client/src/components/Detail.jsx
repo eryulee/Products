@@ -31,8 +31,9 @@ function Detail(props) {
   // }, [params.id, props.products])
 
   // const {brand, name, rating, review} = props.product.fields
-  const handleDelete = async () => {
-    await axios.delete(`{baseURL}/${props.product.id}`, config)
+  const handleDelete = async (id) => {
+    console.log(id)
+    await axios.delete(`${baseURL}/${id}`, config)
     props.setToggleFetch((prevToggleFetch) => !prevToggleFetch)
   }
  
@@ -51,7 +52,7 @@ function Detail(props) {
           <div className='review-div'>
             <h5> <img src='https://i.imgur.com/wsOmGXt.png' className='review-img' alt='review-img' /> <br/> Review: <br /> {product.fields.review}</h5>
           </div>
-          <button onClick={handleDelete}>Delete</button>
+          <button onClick={() => { handleDelete(product.id) }}>Delete</button>
         </div>
 
       ))}

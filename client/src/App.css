@@ -389,16 +389,16 @@ textarea::placeholder{
 }
 
 .rating-div {
-  border: 1px solid #9d9ea0;
-  border-radius: 15px;
-  box-shadow: 0px 3px 0px lightgray;
+  /* border: 1px solid #9d9ea0; */
+  /* border-radius: 15px; */
+  /* box-shadow: 0px 3px 0px lightgray; */
   /* background-color: white; */
   margin-left: 5%;
   margin-right: 5%;
   /* margin-top: 10%; */
-  margin-bottom: 10%;
-  height: 50px;
-  padding-bottom: 5px;
+  /* margin-bottom: 10%; */
+  /* height: 50px; */
+  /* padding-bottom: 5px; */
 }
 
 .review-div {
