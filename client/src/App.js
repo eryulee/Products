@@ -112,7 +112,8 @@ getCategories()
         </div>
         <Form products={products.filter(product => product.fields.category === "High Chairs")}
           category={'High Chairs'}
-          setToggleFetch={setToggleFetch}/>
+          setToggleFetch={setToggleFetch} />
+        <h5 className='review-section'>Reviews</h5>
       <Detail 
           products={products.filter(product => product.fields.category === "High Chairs")}
           setToggleFetch={setToggleFetch}/>
@@ -125,12 +126,13 @@ getCategories()
       <div className='titles'>
           <button className='cat-buttons'>Car Seats</button>
           <br />
-          <img className= 'img-car' src='https://i.imgur.com/Tpw4tbP.png' alt='img-car'/>
+          <img className= 'img-car' src='https://i.imgur.com/6P5Ln1d.png' alt='img-car'/>
         </div>
         
         <Form products={products.filter(product => product.fields.category === "Car Seats")}
           category={'Car Seats'}
-        setToggleFetch={setToggleFetch}/>
+          setToggleFetch={setToggleFetch} />
+        <h5 className='review-section'>Reviews</h5>
       <Detail
           products={products.filter(product => product.fields.category === "Car Seats")}
           setToggleFetch={setToggleFetch}/>
@@ -140,12 +142,13 @@ getCategories()
       <div className='titles'>
           <button className='cat-buttons'>Breast Pumps</button>
           <br />
-          <img className= 'img-pump' src='https://i.imgur.com/5MUyrQL.png' alt='img-pump'/>
+          <img className= 'img-pump' src='https://i.imgur.com/N73baun.png' alt='img-pump'/>
         </div>
         
       <Form products={products.filter(product => product.fields.category === "Breast Pumps")}
         category={'Breast Pumps'}
           setToggleFetch={setToggleFetch} />
+        <h5 className='review-section'>Reviews</h5>
       <Detail
           products={products.filter(product => product.fields.category === "Breast Pumps")}
           setToggleFetch={setToggleFetch}/>
@@ -155,12 +158,13 @@ getCategories()
       <div className='titles'>
           <button className='cat-buttons'>Diapers</button>
           <br />
-          <img className= 'img-diaper' src='https://i.imgur.com/Yj9CpVC.png' alt='img-diaper'/>
+          <img className= 'img-diaper' src='https://i.imgur.com/VPVuDUv.png' alt='img-diaper'/>
         </div>
         
         <Form products={products.filter(product => product.fields.category === "Diapers")}
           category={'Diapers'}
-         setToggleFetch={setToggleFetch}/>
+          setToggleFetch={setToggleFetch} />
+        <h5 className='review-section'>Reviews</h5>
       <Detail
           products={products.filter(product => product.fields.category === "Diapers")}
           setToggleFetch={setToggleFetch}/>
@@ -175,7 +179,8 @@ getCategories()
        
         <Form products={products.filter(product => product.fields.category === "Cribs")}
           category={'Cribs'}
-        setToggleFetch={setToggleFetch}/>
+          setToggleFetch={setToggleFetch} />
+        <h5 className='review-section'>Reviews</h5>
       <Detail
           products={products.filter(product => product.fields.category === "Cribs")}
           setToggleFetch={setToggleFetch}/>
@@ -185,12 +190,13 @@ getCategories()
       <div className='titles'>
           <button className='cat-buttons'>Diaper Pails</button>
           <br />
-          <img className= 'img-pail' src='https://i.imgur.com/h60ubQc.png?1' alt='img-pail'/>
+          <img className= 'img-pail' src='https://i.imgur.com/GtQxmpS.png' alt='img-pail'/>
         </div>
        
         <Form products={products.filter(product => product.fields.category === "Diaper Pails")}
           category={'Diaper Pails'}
-        setToggleFetch={setToggleFetch}/>
+          setToggleFetch={setToggleFetch} />
+        <h5 className='review-section'>Reviews</h5>
       <Detail
           products={products.filter(product => product.fields.category === "Diaper Pails")}
           setToggleFetch={setToggleFetch}/>
@@ -200,12 +206,13 @@ getCategories()
       <div className='titles'>
           <button className='cat-buttons'>Baby Bottles</button>
           <br />
-          <img className= 'img-bottle' src='https://i.imgur.com/k3GnPHG.png?1' alt='img-bottle'/>
+          <img className= 'img-bottle' src='https://i.imgur.com/w6EIWrO.png' alt='img-bottle'/>
         </div>
         
         <Form products={products.filter(product => product.fields.category === "Baby Bottles")}
           category={'Baby Bottles'}
-        setToggleFetch={setToggleFetch}/>
+          setToggleFetch={setToggleFetch} />
+        <h5 className='review-section'>Reviews</h5>
       <Detail
           products={products.filter(product => product.fields.category === "Baby Bottles")}
           setToggleFetch={setToggleFetch}/>

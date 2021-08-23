@@ -4,8 +4,8 @@
 
 
 .App {
-  background-color: #f7f2ea;
-  /* background-color: #fff7f2; */
+  /* background-color: #f7f2ea; */
+  background-color: #fafafa;
   margin-left: 3%;
   margin-right: 3%;
  
@@ -17,12 +17,14 @@
 
 
 header {
-  /* border: solid; */
+  
   padding-top: 7px;
   text-align: center;
-  color: #cb9663;
+  /* color: #cb9663; */
+  color: #8b8b8e;
   font-family: 'Baloo 2';
-  background-color: #ffe3b3;
+  /* background-color: #ffe3b3; */
+  background-color: #dae2f7;
   border-radius: 0 0  60px 60px;
   box-shadow: 0px 1px 0px lightgray;
   
@@ -46,11 +48,14 @@ header {
 
 
 .home-button {
-  border: solid #f4a460;
+  /* border: solid #f4a460; */
+  border: solid #fafafa;
   border-radius: 45px;
   
-  background-color: #f4a460;
-  color: white;
+  /* background-color: #f4a460; */
+  background-color: #fafafa;
+  /* color: white; */
+  
   box-shadow: 0px 3px 0px lightgray;
   margin-bottom: 15px;
   
@@ -59,14 +64,14 @@ header {
 
 .home-png {
   width: 25px;
-  filter: invert()
+  filter: invert(0.6)
 }
 
 .chair-icon {
   width: 40px;
   height: 30px;
   margin-top: 10px;
-  filter: invert();
+  filter: invert(0.5);
   
  
 }
@@ -115,7 +120,7 @@ header {
   width: 40px;
   height: 30px;
   margin-top: 10px;
-  filter: invert();
+  filter: invert(0.4);
   /* background-color: #f5e5b2; */
   /* padding-right: 5px; */
 }
@@ -134,8 +139,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-content: center; */
-  border: solid #ffe3b3;
+  
+  /* border: solid #ffe3b3; */
+  border: solid #eaf4ef;
   
   margin-top: 15px;
   width: 100%;
@@ -144,8 +150,10 @@ header {
   border-radius: 45px;
   
   box-shadow: 0px 3px 0px lightgray;
-  background-color: #ffe3b3;
-  color:#cf7a4a;
+  /* background-color: #ffe3b3; */
+  background-color: #eaf4ef;
+  /* color:#cf7a4a; */
+  color: #9d9ea0;
   padding-left: 10px;
   padding-right: 5px;
   margin-left: 38px;
@@ -153,12 +161,14 @@ header {
   font-family: Baloo 2;
 }
 
+
+
 .form-container {
-  border: solid #ffe3b3;
+  border: solid #f2f2ea;
   border-radius: 45px;
   box-shadow: 0px 3px 0px lightgray;
-  background-color: #ffe3b3;
-  color:#cf7a4a;
+  background-color: #f7f2ea;
+  color:#9d9ea0;
   padding-left: 10px;
   padding-right: 5px;
   margin-left: 48px;
@@ -167,17 +177,30 @@ header {
   
 }
 
-
+.review-section {
+  color: #9d9ea0;
+  text-align: center;
+  border: 2px solid#dae2f7;
+  width: 25%;
+  margin-left: 37%;
+  border-radius: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 
 .cat-buttons {
-  border: solid #f4a460;
+  border: 2px solid #dae2f7;
   border-radius: 45px;
   
-  background-color: #f4a460;
-  color: white;
-  box-shadow: 0px 3px 0px lightgray;
+  /* background-color: #f7f2ea; */
+  background-color: #fafafa;
+  color: #8b8b8e;
+  /* box-shadow: 0px 3px 0px lightgray; */
   margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
   
 }
 
@@ -187,11 +210,11 @@ header {
 }
 
 .rendered-data {
-  border: solid #ffe3b3;
+  border: solid #eaf4ef;
   border-radius: 45px;
   box-shadow: 0px 3px 0px lightgray;
-  background-color: #ffe3b3;
-  color:#cf7a4a;
+  background-color: #eaf4ef;
+  color:#9d9ea0;
   padding-left: 10px;
   padding-right: 5px;
   margin-left: 48px;
@@ -211,24 +234,28 @@ header {
   width: 105px;
   height: 90px;
   margin-bottom: 10px;
+  filter:invert(0.6);
 }
 
 .img-bottle {
   width: 105px;
   height: 80px;
   margin-bottom: 10px;
+  filter: invert(0.5);
 }
 
 .img-pump {
   width: 110px;
   height: 85px;
   margin-bottom: 10px;
+  filter: invert(0.5);
 }
 
 .img-diaper {
   width: 65px;
   height: 55px;
   margin-bottom: 10px;
+  filter: invert(0.5);
 }
 
 .img-crib {
@@ -238,9 +265,10 @@ header {
 }
 
 .img-pail {
-  width: 105px;
-  height: 95px;
+  width: 55px;
+  height: 65px;
   margin-bottom: 10px;
+  filter: invert(0.5);
 }
 
 .actual-form {
@@ -253,18 +281,19 @@ header {
 
 #form-text {
   text-align: center;
-  color:#cf7a4a;
+  color:#f4af60;
 }
 
 input#brand{
   width: 65%;
   margin-left: 15%;
-  border: 1px solid #cf7a4a;
+  border: 1px solid #f4a460;
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
   background-color: #f7f2ea;
+  box-shadow: 0px 3px 0px lightgray;
   
 }
 
@@ -272,37 +301,40 @@ input#name{
   width: 65%;
   margin-left: 15%;
  
-  border: 1px solid #cf7a4a;
+  border: 1px solid #f4a460;
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
   background-color: #f7f2ea;
+  box-shadow: 0px 3px 0px lightgray;
 }
 
 input#rating{
   width: 65%;
   margin-left: 15%;
   
-  border: 1px solid #cf7a4a;
+  border: 1px solid #f4a460;
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
   background-color: #f7f2ea;
+  box-shadow: 0px 3px 0px lightgray;
 }
 
 textarea#review{
   width: 85%;
   margin-left: 4%;
   
-  border: 1px solid #cf7a4a;
+  border: 1px solid #f4a460;
   border-radius: 12px;
   padding-top: 5px;
   padding-bottom: 10px;
   
   padding-left: 8px;
   background-color: #f7f2ea;
+  box-shadow: 0px 3px 0px lightgray;
 }
 
 button#form-button {
@@ -314,17 +346,17 @@ button#form-button {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
-  background-color: #f4a460;
+  background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
-  color: white;
+  color: #f4a460;
   
 }
 input::placeholder{
-  color: #cf7a4a;
+  color: #f4a460;
 }
 
 textarea::placeholder{
-  color: #cf7a4a;
+  color: #f4a460;
 }
 
 
@@ -340,9 +372,10 @@ textarea::placeholder{
 
 footer {
   text-align: center;
-  background-color: #ffe3b3;
-  /* margin-bottom: -22px; */
-  color: #cb9663;
+  /* background-color: #ffe3b3; */
+  background-color: #dae2f7;
+  /* color: #cb9663; */
+  color: #8b8b8e;
   font-family: Baloo 2;
   border-radius: 55px 55px 0 0;
   /* border-radius: 100% 100% 0 0; */
