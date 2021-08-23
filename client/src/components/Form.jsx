@@ -28,37 +28,48 @@ function Form(props) {
   const handleSubmit = async (event) => {
     event.preventDefault()
     const newProduct = {
+      category:  props.category ,
       brand,
       name,
       rating,
       review
     }
-    if (params.id) {
-      await axios.put(`${baseURL}/${params.id}, {fields: newProduct}, config`)
-    } else {
+    // if (params.id) {
+    //   await axios.put(`${baseURL}/${params.id}, {fields: newProduct}, config`)
+    // } else {
       await axios.post(baseURL, {fields:newProduct}, config)
-    }
+    // }
     props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor='brand'></label>
-      <input id='brand' type='text' onChange={(e) => setBrand(e.target.value)} value={brand} placeholder='Enter Brand'/>
+
+    <div className='form-container'>
+
+    
+    <form className='actual-form' onSubmit={handleSubmit}>
+      <label className='brand-label' htmlFor='brand'></label>
+      <input id='brand' type='text' onChange={(e) => setBrand(e.target.value)} value={brand} placeholder='Enter Brand' />
+      <br />
+      
+
+      <label className='name-label' htmlFor='name:'></label>
+      <input id='name' type='text' onChange={(e) => setName(e.target.value)} value={name} placeholder='Enter Name:' />
       <br />
 
-      <label htmlFor='name'></label>
-      <input id='name' type='text' onChange={(e) => setName(e.target.value)} value={name} placeholder='Enter Name' />
+      <label className='rating-label' htmlFor='rating'></label>
+        <input id='rating' type='text' onChange={(e) => setRating(e.target.value)} value={rating} placeholder='Rating:' />
       <br />
 
-      <label htmlFor='rating'></label>
-      <input id='rating' type='text' onChange={(e) => setRating(e.target.value)} value={rating} placeholder='Rating' />
+      <label className='review-label' htmlFor='review'></label>
+      <textarea id='review' type='text' onChange={(e) =>
+        setReview(e.target.value)} value={review} placeholder='Enter Your Review:' />
       <br />
-
-      <label htmlFor='review'></label>
-      <input id='review' type='text' onChange={(e) => setReview(e.target.value)} value={review} placeholder='Enter Your Review'/>
+      <button id='button' type= 'submit'>Submit</button>
+      
 
     </form>
+    </div>
   )
 }
 
