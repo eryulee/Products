@@ -27,7 +27,9 @@ getCategories()
     <div className="App">
       
    <header>
-    <h2 className="app-title">CRIB NOTES</h2>
+        <h2 className="app-title"> CRIB NOTES </h2>
+       
+         
       <Link className="home-link" to="/">
          <div className="header-div">
             <div className="home-div">
@@ -46,7 +48,7 @@ getCategories()
       
   <div className="link-container">
     <Route path="/" exact>
-          
+    
           <Link className="categories-link" to="/high-chairs">
             <div className="category">
               <h5 className="cat-ti">High Chairs</h5>
@@ -109,7 +111,7 @@ getCategories()
         <div className='titles'>
           <button className='cat-buttons'>High Chairs</button>
           <br />
-          <img className= 'img-chair' src='https://i.imgur.com/8LKWmqi.png' alt='img-chair'/>
+          <img className= 'img-chair' src='https://i.imgur.com/NDuq1yk.png' alt='img-chair'/>
         </div>
         <Form products={products.filter(product => product.fields.category === "High Chairs")}
           category={'High Chairs'}
