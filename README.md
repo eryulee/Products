@@ -12,12 +12,12 @@ This react app will allow users to input baby product data for each category whi
 
 ## Wireframes
 
-[wireframe] (https://whimsical.com/baby-products-ratings-TXWHZajktGFW5FCSbJcya6)
+[wireframe] (https://whimsical.com/crib-notes-TXWHZajktGFW5FCSbJcya6)
 
 ## Component Hierarchy
 Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
 
-[component hierarchy] (https://whimsical.com/baby-products-ratings-TXWHZajktGFW5FCSbJcya6)
+[component hierarchy] (https://whimsical.com/crib-notes-TXWHZajktGFW5FCSbJcya6)
 
 ## API and Data Sample
 
