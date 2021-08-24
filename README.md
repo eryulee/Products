@@ -2,7 +2,7 @@
 # Project Overview
 
 ## Project Name
-Baby Products Ratings
+Crib Notes
 
 Daily Goals
 
