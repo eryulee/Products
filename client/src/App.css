@@ -9,16 +9,15 @@
   margin-left: 3%;
   margin-right: 3%;
   border-color: 2px #fafafa;
-  border-radius: 25% 25% 25% 25%
+  
+
+
+
 
   /* margin: 0px 5px 0px 5px solid black; */
 }
 
-.body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .app-title {
   font-weight: bold;
@@ -35,11 +34,17 @@ header {
   /* background-color: #ffe3b3; */
   background-color: #dae2f7;
   /* border-radius: 0 0  -60px -60px; */
-  box-shadow: 0px -25px 0px 0px lightgray;
-
+  /* box-shadow: 0px -25px 0px 0px lightgray; */
+padding-top: 60px;
+border-bottom-left-radius: 9999px;
+border-bottom-right-radius: 9999px;
+position: relative;
+margin: 10px;
 
   
 }
+
+
 
 
 
