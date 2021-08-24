@@ -8,7 +8,7 @@ Daily Goals
 
 ## Project Description
 
-This react app will allow users to input baby product data for each category which will then be rendered on the page. The user input fields will include brand, name, rating, and review. The user will be able to edit/update their data inputs. 
+This react app will allow users to input baby product data for each category which will then be rendered on the page. The user input fields will include brand, name, rating, and review. The user will be able to delete their data inputs. 
 
 ## Wireframes
 
@@ -65,12 +65,12 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 19-20| Prompt / Wireframes / Priority Matrix / Timeframes / Component Hierarchy / AirTable / ReadME/ Project Approval | Incomplete
-|July 23| PseudoCode / code App component / getRequest | Incomplete
-|July 24|  code Products component / putRequest / postRequest / form | Incomplete
-|July 14| Initial Clickable Model / MVP | Incomplete
-|July 15| Initial CSS / flex-box / media-queries  / form styling | Incomplete
-|July 16| Work on PMVP / advanced CSS Styling | Incomplete
+|August 19-20| Prompt / Wireframes / Priority Matrix / Timeframes / Component Hierarchy / AirTable / ReadME/ Project Approval | Complete
+|July 23| PseudoCode / code App component / getRequest | Complete
+|July 24|  code Products component / deleteRequest / postRequest / form | Complete
+|July 14| Initial Clickable Model / MVP | Complete
+|July 15| Initial CSS / flex-box / media-queries  / form styling | Complete
+|July 16| Work on PMVP / advanced CSS Styling | Complete
 |July 17| Presentations | Incomplete
 
 ## Timeframes
@@ -87,7 +87,7 @@ This schedule will be used to keep track of your progress throughout the week an
 | Filter Method | H | 3hrs| 2.5hrs | 2.5hrs |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Post Request | H | 3hrs| 3.5hrs | 3.5hrs |
-| Put Request | H | 3hrs| 3.5hrs | 3.5hrs |
+| Delete Request | H | 3hrs| 3.5hrs | 3.5hrs |
 | Rendering User Data | H | 3hrs| 3.5hrs | 3.5hrs |
 | Styling Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Styling Home Page | H | 3hrs| 3.5hrs | 3.5hrs |
