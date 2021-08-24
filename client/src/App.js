@@ -38,7 +38,8 @@ getCategories()
          </div>
       </Link>
   </header>
-       
+
+   
 
    {/* links to each category page will be displayed on home page. I want links to only 
     be displayed on home page */}

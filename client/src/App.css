@@ -9,29 +9,39 @@
   margin-left: 3%;
   margin-right: 3%;
   border-color: 2px #fafafa;
- 
+  border-radius: 25% 25% 25% 25%
+
   /* margin: 0px 5px 0px 5px solid black; */
-  
-  
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .app-title {
   font-weight: bold;
+  letter-spacing: 3px;
 }
 
 header {
   
-  padding-top: 7px;
+  padding-top: 1px;
   text-align: center;
   /* color: #cb9663; */
   color: #8b8b8e;
   font-family: 'Baloo 2';
   /* background-color: #ffe3b3; */
   background-color: #dae2f7;
-  border-radius: 0 0  60px 60px;
-  box-shadow: 0px 1px 0px lightgray;
+  /* border-radius: 0 0  -60px -60px; */
+  box-shadow: 0px -25px 0px 0px lightgray;
+
+
   
 }
+
+
 
 .categories-link {
   text-decoration: none;
