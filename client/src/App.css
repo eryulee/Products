@@ -4,7 +4,7 @@
 
 
 .App {
-  /* background-color: #f7f2ea; */
+ 
   background-color: #fafafa;
   margin-left: 3%;
   margin-right: 3%;
@@ -21,25 +21,27 @@
 
 .app-title {
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 header {
   
-  padding-top: 1px;
+ 
   text-align: center;
-  /* color: #cb9663; */
-  color: #8b8b8e;
+  color: #bc9e82;
+  /* color: #8b8b8e; */
   font-family: 'Baloo 2';
-  /* background-color: #ffe3b3; */
   background-color: #dae2f7;
+  
+  background-color: #ffe3b3;
+  
   /* border-radius: 0 0  -60px -60px; */
   /* box-shadow: 0px -25px 0px 0px lightgray; */
-padding-top: 60px;
+padding-top: 1px;
 border-bottom-left-radius: 9999px;
 border-bottom-right-radius: 9999px;
 position: relative;
-margin: 10px;
+margin: 20px;
 
   
 }
@@ -153,6 +155,7 @@ margin: 10px;
 .link-container {
   margin-left: 40px;
   margin-right: 127px;
+  /* background-color: #fafafa; */
   /* background-color: #ffd393 */
   /* border: solid lightslategray; */
   
@@ -177,6 +180,7 @@ margin: 10px;
   background-color: #eaf4ef;
   /* color:#cf7a4a; */
   color: #9d9ea0;
+  letter-spacing: 1px;
   padding-left: 10px;
   padding-right: 5px;
   margin-left: 38px;
@@ -197,6 +201,7 @@ margin: 10px;
   margin-left: 48px;
   margin-right: 48px;
   font-family: Baloo 2;
+  letter-spacing: 2px;
   
 }
 
@@ -209,6 +214,7 @@ margin: 10px;
   border-radius: 45px;
   padding-top: 5px;
   padding-bottom: 5px;
+  letter-spacing: 2px;
 }
 
 
@@ -224,6 +230,7 @@ margin: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: bold;
+  letter-spacing: 2px;
   
 }
 
@@ -232,6 +239,7 @@ margin: 10px;
 .titles {
   text-align: center;
   margin-top: 15px;
+  
 }
 
 .rendered-data {
@@ -310,6 +318,7 @@ margin: 10px;
 #form-text {
   text-align: center;
   color:#f4af60;
+  letter-spacing: 2px;
 }
 
 .form-label {
@@ -394,6 +403,7 @@ button#form-button {
   background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
   color: #f4a460;
+  letter-spacing: 2px;
   
 }
 
@@ -467,6 +477,7 @@ textarea::placeholder{
   background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
   color: #f4a460;
+  letter-spacing: 2px;
   
 }
 
@@ -482,13 +493,16 @@ textarea::placeholder{
 
 footer {
   text-align: center;
-  /* background-color: #ffe3b3; */
-  background-color: #dae2f7;
-  /* color: #cb9663; */
-  color: #8b8b8e;
+  
+  /* background-color: #dae2f7; */
+  background-color: #f7f2ea;
+  letter-spacing: 2px;
+  /* color: #8b8b8e; */
+  color: #bc9e82;
+
   font-family: Baloo 2;
-  border-radius: 55px 55px 0 0;
-  /* border-radius: 100% 100% 0 0; */
+  /* border-radius: 55px 55px 0 0; */
+  border-radius: 100% 100% 0 0;
   padding-top: 0px;
   height: 30px;
   box-shadow: 3px 3px 3px lightgray;
