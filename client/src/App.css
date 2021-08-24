@@ -15,7 +15,9 @@
   
 }
 
-
+.app-title {
+  font-weight: bold;
+}
 
 header {
   
@@ -35,7 +37,6 @@ header {
   text-decoration: none;
   
 }
-
 
 
 .home-div {
@@ -296,57 +297,74 @@ header {
   color:#f4af60;
 }
 
+.form-label {
+  color: #f4af60;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 3px;
+  
+  
+}
+
+
 input#brand{
-  width: 65%;
-  margin-left: 15%;
+  width: 55%;
+  height: 23px;
+  margin-left: 21%;
   border: 1px solid #f4a460;
-  border-radius: 10px;
+  border-radius: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
   background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
-  
+  outline: none;
+  color: #9d9ea0;
 }
 
 input#name{
-  width: 65%;
-  margin-left: 15%;
- 
+  width: 55%;
+  margin-left: 21%;
+  height: 23px;
+  color: #9d9ea0;
   border: 1px solid #f4a460;
-  border-radius: 10px;
+  border-radius: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
   background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
+  outline:  none;
 }
 
 input#rating{
-  width: 65%;
-  margin-left: 15%;
-  
+  width: 55%;
+  margin-left: 21%;
+  height: 23px;
+  color: #9d9ea0;
   border: 1px solid #f4a460;
-  border-radius: 10px;
+  border-radius: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
   background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
+  outline: none;
 }
 
 textarea#review{
-  width: 65%;
-  margin-left: 15%;
-  
+  width: 55%;
+  margin-left: 21%;
+  color: #9d9ea0;
   border: 1px solid #f4a460;
-  border-radius: 12px;
+  border-radius: 18px;
   padding-top: 5px;
   padding-bottom: 10px;
   
   padding-left: 8px;
   background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
+  outline: none;
 }
 
 button#form-button {
@@ -582,7 +600,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 855px ) {
+@media only screen and (min-width: 854px ) {
   .link-container {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -607,13 +625,63 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1005px ) {
+@media only screen and (min-width: 912px ) {
   .link-container {
     margin-top: 15px;
     margin-bottom: 15px;
 
     margin-left: 210px;
     margin-right: 297px;
+  }
+
+  .App {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .form-container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .rendered-data {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 963px ) {
+  .link-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    margin-left: 230px;
+    margin-right: 317px;
+  }
+
+  .App {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .form-container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .rendered-data {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 1005px ) {
+  .link-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    margin-left: 250px;
+    margin-right: 337px;
   }
 
   .App {
@@ -632,7 +700,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1117px ) {
+@media only screen and (min-width: 1070px ) {
   .link-container {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -657,13 +725,63 @@ footer {
   }
 }
 
+@media only screen and (min-width: 1117px ) {
+  .link-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    margin-left: 260px;
+    margin-right: 347px;
+  }
+
+  .App {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .form-container {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .rendered-data {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media only screen and (min-width: 1194px ) {
+  .link-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    margin-left: 280px;
+    margin-right: 367px;
+  }
+
+  .App {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .form-container {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .rendered-data {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
 @media only screen and (min-width: 1271px ) {
   .link-container {
     margin-top: 15px;
     margin-bottom: 15px;
 
-    margin-left: 270px;
-    margin-right: 357px;
+    margin-left: 310px;
+    margin-right: 397px;
   }
 
   .App {
@@ -687,8 +805,8 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
 
-    margin-left: 320px;
-    margin-right: 407px;
+    margin-left: 340px;
+    margin-right: 437px;
   }
 
   .App {

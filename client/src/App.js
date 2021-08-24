@@ -27,7 +27,7 @@ getCategories()
     <div className="App">
       
    <header>
-    <h3 className="app-title">Baby Product Reviews</h3>
+    <h2 className="app-title">CRIB NOTES</h2>
       <Link className="home-link" to="/">
          <div className="header-div">
             <div className="home-div">
