@@ -78,7 +78,7 @@ function Form(props) {
       <textarea id='review' type='text' onChange={(e) =>
         setReview(e.target.value)} value={review} required placeholder='Your Review:' />
       <br />
-      <button id='form-button' type= 'submit'>Submit</button>
+      <button id='form-button' className='submit-button' type= 'submit'>Submit</button>
       
 
     </form>

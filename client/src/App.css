@@ -63,6 +63,12 @@ header {
   /* background-image: url('https://i.imgur.com/FJkLcZF.png'); */
 }
 
+/* https://www.pluralsight.com/guides/create-a-hover-button-in-a-react-app */
+.home-button:hover{
+  transform: scale(0.9);
+  transition-duration: 0.8s;
+}
+
 .home-png {
   width: 25px;
   filter: invert(0.6)
@@ -205,6 +211,8 @@ header {
   
 }
 
+
+
 .titles {
   text-align: center;
   margin-top: 15px;
@@ -328,8 +336,8 @@ input#rating{
 }
 
 textarea#review{
-  width: 85%;
-  margin-left: 4%;
+  width: 65%;
+  margin-left: 15%;
   
   border: 1px solid #f4a460;
   border-radius: 12px;
@@ -343,18 +351,24 @@ textarea#review{
 
 button#form-button {
   width: 30%;
-  margin-left: 35%;
+  margin-left: 34%;
   
-  border: 1px solid #d7d7d7;
+  border: 1px solid #f4a460;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 8px;
-  background-color: #eaf4ef;
+  background-color: #f7f2ea;
   box-shadow: 0px 3px 0px lightgray;
-  color: #8b8b8e;
+  color: #f4a460;
   
 }
+
+.submit-button:hover {
+  transform: scale(0.9);
+  transition-duration: 0.8s;
+}
+
 input::placeholder{
   color: #f4a460;
 }
@@ -417,7 +431,7 @@ textarea::placeholder{
 
 .delete-button {
   width: 30%;
-  margin-left: 4%;
+  /* margin-left: 1%; */
   margin-bottom: 5%;
   border: 1px solid #f4a460;
   border-radius: 15px;
@@ -428,6 +442,11 @@ textarea::placeholder{
   box-shadow: 0px 3px 0px lightgray;
   color: #f4a460;
   
+}
+
+.delete-button:hover {
+  transform: scale(0.9);
+  transition-duration: 0.8s;
 }
 
 .footer-text {
