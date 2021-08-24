@@ -49,11 +49,11 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 
 - Use filter method to filter category 
 - Render data on page
-- Reuse form for both post and put request
+- Add icon images for all links
 
 
 #### PostMVP  
-
+-Hover effect for all buttons
 -Allow user to save favorites
 - Add start rating system
 - Use local storage to save user favorites
