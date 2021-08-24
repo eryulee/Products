@@ -50,6 +50,8 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 - Use filter method to filter category 
 - Render data on page
 - Reuse form for both post and put request
+-full CRUD application
+-use React.js for front-end framework
 
 
 #### PostMVP  
