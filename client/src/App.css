@@ -162,7 +162,7 @@ padding-top: 1px;
   text-align: center;
   border: 2px solid#dae2f7;
   width: 25%;
-  margin-left: 37%;
+  margin-left: 38%;
   border-radius: 45px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -273,7 +273,7 @@ padding-top: 1px;
 input#brand{
   width: 55%;
   height: 23px;
-  margin-left: 21%;
+  margin-left: 20%;
   border: 1px solid #f4a460;
   border-radius: 12px;
   padding-top: 5px;
@@ -287,7 +287,7 @@ input#brand{
   
 input#name{
   width: 55%;
-  margin-left: 21%;
+  margin-left: 20%;
   height: 23px;
   color: #9d9ea0;
   border: 1px solid #f4a460;
@@ -302,7 +302,7 @@ input#name{
   
 input#rating{
   width: 55%;
-  margin-left: 21%;
+  margin-left: 20%;
   height: 23px;
   color: #9d9ea0;
   border: 1px solid #f4a460;
@@ -317,7 +317,7 @@ input#rating{
 
 textarea#review{
   width: 55%;
-  margin-left: 21%;
+  margin-left: 20%;
   color: #9d9ea0;
   border: 1px solid #f4a460;
   border-radius: 18px;
@@ -331,7 +331,7 @@ textarea#review{
 
 button#form-button {
   width: 30%;
-  margin-left: 34%;
+  margin-left: 36%;
   border: 1px solid #f4a460;
   border-radius: 15px;
   padding-top: 5px;
