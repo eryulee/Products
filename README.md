@@ -3,25 +3,22 @@
 
 ## Project Name
 Crib Notes
+(https://crib-notes.netlify.app/)
 
-Daily Goals
 
 ## Project Description
 
-This react app will allow users to input baby product data for each category which will then be rendered on the page. The user input fields will include brand, name, rating, and review. The user will be able to delete their data inputs. 
+This react app will allow users to review baby products. The review input fields will include brand, name, rating, and review. The user will also be able to delete their review. This app will be helpful for first-time moms who feel overwhelmed and have no idea where to start when it comes to buying baby products. 
 
 ## Wireframes
 
 [wireframe] (https://whimsical.com/crib-notes-TXWHZajktGFW5FCSbJcya6)
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
 
 [component hierarchy] (https://whimsical.com/crib-notes-TXWHZajktGFW5FCSbJcya6)
 
 ## API and Data Sample
-
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
 
 ```json
 {
@@ -42,8 +39,6 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 
 
@@ -61,8 +56,6 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |August 19-20| Prompt / Wireframes / Priority Matrix / Timeframes / Component Hierarchy / AirTable / ReadME/ Project Approval | Complete
@@ -71,30 +64,30 @@ This schedule will be used to keep track of your progress throughout the week an
 |July 14| Initial Clickable Model / MVP | Complete
 |July 15| Initial CSS / flex-box / media-queries  / form styling | Complete
 |July 16| Work on PMVP / advanced CSS Styling | Complete
-|July 17| Presentations | Incomplete
+|July 17| Presentations | Complete
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Researching API idea | H | 3hrs| 3.5hrs | 3.5hrs |
-| Wireframes | H | 3hrs| 3.5hrs | 3.5hrs |
-| Component Hierarchy | H | 3hrs| 3.5hrs | 3.5hrs |
-| AirTable | H | 3hrs| 3.5hrs | 3.5hrs |
-| PseudoCode | H | 3hrs| 3.5hrs | 3.5hrs |
-| App.js structure | H | 3hrs| 3.5hrs | 3.5hrs |
-| Use Effect | H | 3hrs| 3.5hrs | 3.5hrs |
-| Filter Method | H | 3hrs| 2.5hrs | 2.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Post Request | H | 3hrs| 3.5hrs | 3.5hrs |
-| Delete Request | H | 3hrs| 3.5hrs | 3.5hrs |
-| Rendering User Data | H | 3hrs| 3.5hrs | 3.5hrs |
-| Styling Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Styling Home Page | H | 3hrs| 3.5hrs | 3.5hrs |
-| Using Flex-box for header | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding star rating system | L | 3hrs| 3.5hrs | 3.5hrs |
-| Adding icon png images | L | 3hrs| 3.5hrs | 3.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Researching API idea | H | 3hrs| 5hrs | 5hrs |
+| Wireframes | H | 3hrs| 4hrs | 4hrs |
+| Component Hierarchy | H | 3hrs| 4hrs | 4hrs |
+| AirTable | H | 3hrs| 3hrs | 3hrs |
+| PseudoCode | H | 3hrs| 3hrs | 3hrs |
+| App.js structure | H | 3hrs| 3hrs | 3hrs |
+| Use Effect | H | 3hrs| 4hrs | 4hrs |
+| Filter Method | H | 3hrs| 7hrs | 7hrs |
+| Adding Form | H | 3hrs| 3hrs | 3hrs |
+| Post Request | H | 3hrs| 5hrs | 5hrs |
+| Delete Request | H | 3hrs| 5hrs | 5hrs |
+| Rendering User Data | H | 3hrs| 5hrs | 5hrs |
+| Styling Form | H | 3hrs| 6hrs | 6hrs |
+| Styling Home Page | H | 3hrs| 7hrs | 7hrs |
+| Using Flex-box for header | H | 3hrs| 3hrs | 3hrs |
+| Adding star rating system | L | 3hrs| 4hrs | 4hrs |
+| Adding icon png images | L | 3hrs| 6hrs | 6hrs |
+| Total | H | 48hrs| 77hrs | 77hrs |
 
 ## SWOT Analysis
 

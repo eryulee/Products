@@ -15,8 +15,23 @@ function App() {
 useEffect(() => {
   const getCategories = async () => {
     const resp = await axios.get(baseURL, config)
-    console.log(resp.data.records)
-    setProducts(resp.data.records)
+    const filtered = resp.data.records
+    filtered.sort((a,b) => {
+      const splitDateA = a.createdTime.split("T")[0]
+      const dayValueA = splitDateA.split("-")[2]
+      const monthValueA = splitDateA.split("-")[1]
+
+      const splitDateB = b.createdTime.split("T")[0]
+      const dayValueB = splitDateB.split("-")[2]
+      const monthValueB = splitDateB.split("-")[1]
+
+      a = Number(dayValueA) + Number(monthValueA) * 10
+      b = Number(dayValueB) + Number(monthValueB) * 10
+      return b - a
+    })
+
+    // console.log(filtered)
+    setProducts(filtered)
   }
 getCategories()
 }, [toggleFetch]);
