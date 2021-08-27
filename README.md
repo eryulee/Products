@@ -50,7 +50,7 @@ This react app will allow users to review baby products. The review input fields
 #### PostMVP  
 -Hover effect for all buttons
 -Allow user to save favorites
-- Add start rating system
+- Add star rating system
 - Use local storage to save user favorites
 - make a separate 'Form' component
 

@@ -55,7 +55,7 @@ function Form(props) {
           <input id='name' type='text' onChange={(e) => setName(e.target.value)} value={name} autoComplete='off' required   />
         <br />
       
-        <label className='form-label' htmlFor='rating'>Rating (0-5):</label>
+        <label className='form-label' htmlFor='rating'>Rating (1-5):</label>
           <input id='rating' type='number' min={1} max={5} onChange={(e) => setRating(e.target.valueAsNumber)} required value={rating} />
         <br />
 
