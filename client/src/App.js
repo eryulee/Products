@@ -30,7 +30,7 @@ useEffect(() => {
       return b - a
     })
 
-    // console.log(filtered)
+    
     setProducts(filtered)
   }
 getCategories()
