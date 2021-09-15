@@ -71,7 +71,7 @@ return (
           <Link className="categories-link" to="/breast-pumps">
             <div className="category">
               <h5 className="cat-ti">Breast Pumps</h5>
-              <img src='https://i.imgur.com/D4eIoYF.jpg' alt='imgur-3' className="pump-icon"/>
+              <img src='https://i.imgur.com/5rwoifF.png' alt='imgur-3' className="pump-icon"/>
             </div>
           </Link>
 
