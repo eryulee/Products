@@ -90,7 +90,7 @@ padding-top: 1px;
   width: 40px;
   height: 30px;
   margin-top: 10px;
-  /* filter: invert(0.9); */
+  filter: invert(0.9);
 }
   
 .crib-icon {

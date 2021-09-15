@@ -78,7 +78,7 @@ return (
           <Link className="categories-link" to="/diapers">
             <div className="category">
               <h5 className="cat-ti">Diapers</h5>
-              <img src='https://i.imgur.com/5BpHDTq.jpg' alt='imgur-4' className="diaper-icon"/>
+              <img src='https://i.imgur.com/oJUDy9z.png' alt='imgur-4' className="diaper-icon"/>
             </div>
           </Link>
 
