@@ -57,35 +57,35 @@ return (
           <Link className="categories-link" to="/high-chairs">
             <div className="category">
               <h5 className="cat-ti">High Chairs</h5>
-              <img src='https://i.imgur.com/NDuq1yk.png' alt='imgur-1' className="chair-icon"/>
+              <img src='https://i.imgur.com/wVhYUgE.png' alt='imgur-1' className="chair-icon"/>
             </div>
           </Link>
     
           <Link className="categories-link" to="/car-seats">
             <div className="category">
               <h5 className="cat-ti">Car Seats</h5>
-              <img src='https://i.imgur.com/6P5Ln1d.png' alt='imgur-2' className="seat-icon"/>
+              <img src='https://i.imgur.com/cOTy8uT.png' alt='imgur-2' className="seat-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/breast-pumps">
             <div className="category">
               <h5 className="cat-ti">Breast Pumps</h5>
-              <img src='https://i.imgur.com/N73baun.png' alt='imgur-3' className="pump-icon"/>
+              <img src='https://i.imgur.com/D4eIoYF.jpg' alt='imgur-3' className="pump-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/diapers">
             <div className="category">
               <h5 className="cat-ti">Diapers</h5>
-              <img src='https://i.imgur.com/VPVuDUv.png' alt='imgur-4' className="diaper-icon"/>
+              <img src='https://i.imgur.com/5BpHDTq.jpg' alt='imgur-4' className="diaper-icon"/>
             </div>
           </Link>
 
           <Link className="categories-link" to="/cribs">
             <div className="category">
               <h5 className="cat-ti">Cribs</h5>
-              <img src='https://i.imgur.com/oU5p4d1.png' alt='imgur-5' className="crib-icon"/>
+              <img src='https://i.imgur.com/EzxrCvK.png' alt='imgur-5' className="crib-icon"/>
             </div>
           </Link>
 
